@@ -2,7 +2,7 @@
 
 app.factory('EventService',['$http','$q','$rootScope',function($http,$q,$rootScope)
 {
-	var baseurl='http://localhost:8080/CollaborationBackEndJava'
+	var baseurl='http://localhost:8084/CollaborationBackEndJava'
 
 		return {
 			fetchAllEvents: function()

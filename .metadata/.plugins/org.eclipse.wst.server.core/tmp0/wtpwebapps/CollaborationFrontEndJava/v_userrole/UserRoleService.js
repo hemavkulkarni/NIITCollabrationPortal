@@ -2,7 +2,7 @@
 
 app.factory('UserRoleService',['$http','$q','$rootScope',function($http,$q,$rootScope){
 	console.log("USer role service");
-	var baseurl='http://localhost:8080/CollaborationBackEndJava'
+	var baseurl='http://localhost:8084/CollaborationBackEndJava'
 	return {
 		getAllUserRoles: function()
 		{

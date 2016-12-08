@@ -4,7 +4,7 @@ app.factory('UserProfileService',['$http', '$q', '$rootScope', function($http,$q
 {
 	console.log("user profile service");
 
-	var baseurl = 'http://localhost:8080/CollaborationBackEndJava'
+	var baseurl = 'http://localhost:8084/CollaborationBackEndJava'
 	return{
 		 fetchAllUsers: function() {
 	        return $http.get(baseurl+'/allusers')

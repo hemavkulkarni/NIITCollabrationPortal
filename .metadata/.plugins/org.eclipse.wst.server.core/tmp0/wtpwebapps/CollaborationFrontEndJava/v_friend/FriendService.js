@@ -4,7 +4,7 @@ app.factory('FriendService', ['$http','$q','$rootScope', function($http, $q, $ro
 {
 	console.log("user friend service");
 
-	var baseurl = 'http://localhost:8080/CollaborationBackEndJava'
+	var baseurl = 'http://localhost:8084/CollaborationBackEndJava'
 	return {
 		addfriend : function(useremail) {
 		return $http
