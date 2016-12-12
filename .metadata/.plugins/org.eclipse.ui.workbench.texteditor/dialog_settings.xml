@@ -2,12 +2,17 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="spring-security-config" key="selection"/>
+		<item value="adduserprofile" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="adduserprofile"/>
+			<item value="home"/>
+			<item value="progressus`"/>
+			<item value="progressus"/>
+			<item value="maksud"/>
 			<item value="spring-security-config"/>
 			<item value="@Override"/>
 		</list>
